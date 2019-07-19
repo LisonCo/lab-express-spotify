@@ -1,0 +1,110 @@
+body {
+    margin : 0;
+}
+
+/* HOME PAGE  */
+
+#index-container  {
+    height : 100vh;
+    display :flex;
+    justify-content : center;
+    align-items : center;
+    background-image : url(https://static.pexels.com/photos/167605/pexels-photo-167605.jpeg);
+    background-size : cover;
+}
+
+#center-div {
+    background-color : rgba(255, 255, 255, 0.6);
+    height : 20%;
+    width : 30%;
+    display :flex;
+    justify-content : center;
+    align-items : center;
+}
+
+#center-div button {
+    background-color: #ff6666;
+    border: 1px solid #ff6666;
+    margin-top: 10px;
+    color : white;
+}
+
+/* ARTISTS PAGE  */
+
+#artists-container {
+    display : flex;
+    margin : 5%;
+    flex-wrap: wrap;
+    justify-content : space-around;
+    align-items : space-around;
+}
+
+#artist-card {
+    display : flex;
+    flex-direction : column;
+    width : 30%;
+    padding : 1%;
+}
+
+#artist-card img {
+    width : 80%;
+}
+
+/* ALBUMS PAGE */
+
+#albums-container {
+    display : flex;
+    margin : 5%;
+    flex-wrap: wrap;
+    justify-content : space-around;
+    align-items : space-around;
+}
+
+#album-card {
+    display : flex;
+    flex-direction : column;
+    width : 30%;
+    padding : 1%;
+}
+
+#album-card img {
+    width : 80%;
+}
+
+/* TRACKS PAGE */
+
+nav {
+    background : grey;
+    color : white;
+    width : 100%;
+    display : flex;
+    justify-content : space-between;
+    font-weight : bold;
+    font-size : 2em;
+}
+
+#title {
+    padding : 3vh 10vw;
+}
+
+#listen {
+    padding : 3vh 27vw;
+}
+
+#tracks-container {
+    padding : 5vh 10vw;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-around
+}
+
+.track {
+    display : flex;
+    justify-content: space-between
+}
+
+.name {
+    padding-top : 5vh;
+    font-weight : bold;
+    font-size : 1.5em;
+}
